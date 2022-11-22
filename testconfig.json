@@ -1,0 +1,38 @@
+{
+  "db": {
+    "mysql": {
+      "enabled": true,
+      "host": "tcp://192.168.1.109:3306",
+      "user": "tgdb",
+      "pass": ";hFU;3nf35",
+      "database": "tgscrapper",
+      "messages_table": "messages",
+      "files_table": "files",
+      "usernames_table": "usernames",
+      "locations_table": "locations",
+      "avatars_table": "avatars"
+    },
+    "postgresql": {
+      "enabled": true,
+      "host": "postgresql://tgdb:;hFU;3nf35@192.168.1.109/tgscrapper",
+      "messages_table": "public.messages",
+      "files_table": "public.files",
+      "usernames_table": "public.usernames",
+      "locations_table": "public.locations",
+      "avatars_table": "public.avatars"
+    }
+  },
+  "tdlib": {
+    "tdata_folder": "tdlib",
+    "api_id": 7560296,
+    "api_hash": "85a6fbdb43ac72c2aa18068582b5ed86",
+    "device_model": "TGInspector Core",
+    "app_version": "1.1.8",
+    "lang_code": "de",
+    "test_mode": true
+  },
+  "storage": {
+    "storage_enabled": true,
+    "storage_location": "storage"
+  }
+}
